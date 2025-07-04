@@ -215,7 +215,7 @@ If you use this framework in your research, please cite:
   author={McCarthy, Chris and Titmus, Andrew and Sternberg, Troy and Shaney, Kyle and Brooks, Cassandra},
   journal={Ecological Informatics},
   note={Under Review},
-  year={2024}
+  year={2025}
 }
 ```
 
