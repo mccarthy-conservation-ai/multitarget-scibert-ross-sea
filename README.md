@@ -13,29 +13,29 @@ cd multitarget-scibert-ross-sea
 pip install -r requirements.txt
 
 # Run with synthetic data (works immediately)
-python examples/train_model.py
+python train_model.py
 
 # Classify a single paper
-python examples/predict_paper.py
+python predict_paper.py
 ```
 
 ## Quick Classification Example
 
 ```bash
 # Classify a paper from PDF
-python examples/predict_paper.py --pdf "path/to/your/paper.pdf"
+python predict_paper.py --pdf "path/to/your/paper.pdf"
 
 # Classify with ensemble (recommended for production)
-python examples/predict_paper.py --pdf "path/to/your/paper.pdf" --ensemble
+python predict_paper.py --pdf "path/to/your/paper.pdf" --ensemble
 
 # Classify with manual input
-python examples/predict_paper.py --title "Your Paper Title" --abstract "Your abstract text..."
+python predict_paper.py --title "Your Paper Title" --abstract "Your abstract text..."
 
 # Interactive mode
-python examples/predict_paper.py --manual
+python predict_paper.py --manual
 
 # Ensemble with custom size
-python examples/predict_paper.py --pdf "path/to/your/paper.pdf" --ensemble --ensemble-size 5
+python predict_paper.py --pdf "path/to/your/paper.pdf" --ensemble --ensemble-size 5
 ```
 
 Results show classification across all four dimensions:
