@@ -1,0 +1,43 @@
+# Core ML/AI Libraries
+torch>=2.0.0                    # PyTorch for neural network training and inference
+transformers>=4.35.0            # Hugging Face library for SciBERT model and tokenization
+scikit-learn>=1.3.0             # ML utilities, metrics, and baseline models
+scikit-multilearn>=0.2.0        # Multi-label classification tools and stratified splitting
+
+# Data Processing
+pandas>=1.5.0                   # DataFrame operations and data manipulation
+numpy>=1.21.0                   # Numerical operations and array handling
+scipy>=1.9.0                    # Statistical functions and significance testing
+
+# Text Processing
+sentencepiece>=0.1.99           # Tokenization support for transformer models
+
+# File Processing
+openpyxl>=3.0.0                 # Reading Excel files (.xlsx format)
+xlrd>=2.0.0                     # Additional Excel file format support (.xls)
+
+# PDF Processing
+pdfplumber>=0.7.0               # Extract text from PDFs with layout preservation
+PyPDF2>=3.0.0                   # General PDF text extraction and manipulation
+pymupdf>=1.23.0                 # Fast PDF processing and text extraction
+
+# Visualization (optional but useful)
+matplotlib>=3.5.0               # Basic plotting and charts
+seaborn>=0.11.0                 # Statistical data visualization
+plotly>=5.0.0                   # Interactive plots and dashboards
+
+# Progress bars and utilities
+tqdm>=4.64.0                    # Progress bars for training loops
+
+# Development and testing
+pytest>=7.0.0                   # Unit testing framework
+jupyter>=1.0.0                  # Jupyter notebook support for development
+
+# Accelerated training (optional, for CUDA)
+accelerate>=0.24.0              # Hugging Face library for GPU optimization
+
+# Analysis visualization
+wordcloud>=1.9.0                # Generate word clouds for theme analysis
+
+# Performance improvements
+orjson>=3.8.0                   # Fast JSON parsing for configuration files
