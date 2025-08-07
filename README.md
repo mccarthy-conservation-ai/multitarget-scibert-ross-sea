@@ -118,6 +118,10 @@ multitarget-scibert-ross-sea/
 ├── data/                   # Data directory
 ├── models/                 # Saved models
 ├── test_papers/            # Sample papers for testing
+│   ├── testpaper1.pdf
+│   ├── testpaper2.pdf
+│   ├── testpaper3.pdf
+│   └── testpaper4.pdf
 ├── rosssea_research_dataset.xlsx
 ├── README.md
 ├── requirements.txt
@@ -160,7 +164,7 @@ If you use this framework in your research, please cite:
 ```bibtex
 @article{mccarthy2025research,
   title={Where Are the Research Gaps? AI-Assisted Multi-Target Classification for Research-Policy Alignment in Conservation Science},
-  author={McCarthy, Chris and Titmus, Andrew and Sternberg, Troy and Shaney, Kyle and Brooks, Cassandra},
+  author={McCarthy, Chris and Sternberg, Troy and Shaney, Kyle and Brooks, Cassandra},
   journal={Ecological Informatics},
   year={2025},
   note={Under Review}
