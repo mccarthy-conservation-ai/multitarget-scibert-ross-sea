@@ -19,6 +19,8 @@ python examples/train_model.py
 python examples/predict_paper.py --pdf paper.pdf
 ```
 
+Note: By default, src/experiment_config.py is set to MODE = "semantic" which classifies themes and objectives only (recommended). To include zones/areas classification, change to MODE = "full", though geographic targets are better suited to information extraction than semantic classification.
+
 ## Overview
 
 The Enhanced Multi-Target SciBERT framework simultaneously classifies research papers across two key conservation dimensions:
