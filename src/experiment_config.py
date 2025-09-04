@@ -4,7 +4,7 @@ Simple configuration to switch between semantic-only and full model
 """
 
 # CHANGE THIS LINE TO SWITCH MODES
-MODE = "full"  # Options: "semantic" or "full"
+MODE = "semantic"  # Options: "semantic" or "full"
 
 def get_active_targets():
     """Returns which targets to use based on MODE"""
